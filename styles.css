@@ -1,0 +1,44 @@
+ <script src="https://kit.fontawesome.com/6487f0a3d4.js" crossorigin="anonymous"></script>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Inter", sans-serif;
+    }
+
+     .nav {
+        height: 80px;
+        display: flex;
+       }
+
+    .nav__container {
+        width: 100%;
+        max-width: 1280px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+    .nav__logo--title {
+        display: flex;
+        font-weight: 900;
+    font-size: 24px;
+    margin-left: 12px;
+    padding-bottom: 2px;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+   
