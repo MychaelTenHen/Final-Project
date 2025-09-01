@@ -1,5 +1,5 @@
  <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 </style>
 
 * {
@@ -85,6 +85,11 @@
 
     .nav__link--primary:hover {
         text-decoration: none;
+    }
+
+    #quality .section__title, 
+    #values .section__title {
+        line-height: 1.25;
     }
 
     .header__container{
@@ -422,6 +427,11 @@
         align-items: center;
     }
 
+    #values .section__title {
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+
     .value{
         margin-top: 2rem;
         margin-right: 2rem;
@@ -434,6 +444,19 @@
         display: flex;
         align-items: center;
     }
+
+    .value__name {
+        margin-left: 12px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #243e63;
+}
+
+    .value__para {
+        margin-top: 16px;
+        line-height: 1.625;
+        color: #718096;
+}
 
      .value__img--wrapper {
         border-radius: 50%;
