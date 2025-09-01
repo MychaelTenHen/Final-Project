@@ -1,4 +1,6 @@
- <script src="https://kit.fontawesome.com/6487f0a3d4.js" crossorigin="anonymous"></script>
+ <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
 
 * {
     margin: 0;
@@ -26,10 +28,15 @@
         color: #6415ff;
     }
 
-    img {
+    .nav__logo--img {
         width: 40px;
         
     }
+
+    .nav__logo {
+        display: flex;
+    }
+
     .nav__logo--title {
         display: flex;
         font-weight: 900;
@@ -61,8 +68,18 @@
     }
 
     .nav__link--primary {
-        border: 2px solid #6415ff;
-        border-radius: 4px;
+    border: 2px solid #6415ff;
+    border-radius: 4px;
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    border-radius: 9999px;
+    color: #fff;
+    background-color: #6415ff;
+    line-height: 1.5;
+    border: none;
+    width: auto;
+    transition: all 300ms ease;
 
     }
 
@@ -74,6 +91,7 @@
         width: 100%;
         max-width: 720px;
         margin: 0 auto;
+        padding: 96px 0;
     }
 
     h1{
@@ -141,13 +159,182 @@
     }
 
     .header__customers {
-    margin-top: 16px;
-    padding-right: 128px;
-    padding-left: 128px;
-    opacity: 0.5;
-    width: 100%;
+     margin-top: 16px;
+     padding-right: 128px;
+     padding-left: 128px;
+     opacity: 0.5;
+     width: 100%;
     }
 
     .header__img {
        width: 100%;
     }
+
+    .section__tag {
+     display: flex;
+     justify-content: center;
+     font-size: 16px;
+     color: #6415ff;
+     letter-spacing: 1.6px;
+     font-weight: 700;
+     text-transform: uppercase; 
+    }
+
+    .section__title {
+     font-size: 48px;
+     font-weight: 900;
+     color: rgb(36, 62, 99);
+     line-height: 1.5;
+     margin: 16px 0;
+     letter-spacing: 0.025em;
+    }
+
+    .section__para{
+     font-size: 18px;
+     font-weight: 500;
+     color: #7c8ba1;
+     line-height: 1.625;   
+    }
+
+
+    /* 
+    
+    Features 
+    
+    */
+
+    #features {
+         position: relative;
+         text-align: center;
+         justify-content: center;
+          flex-wrap: wrap;
+    }
+
+    .features{
+        width: calc(100%/3);
+        display: flex;
+    }
+      
+    .container {
+    padding: 96px 0;
+    }
+
+    .row__narrow{
+        width: 100%;
+       margin: 0 auto;
+    }
+
+    .feature__row{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        color: #243E62;
+        padding: 32px 24px;
+        flex-wrap: wrap;
+    }
+
+    .feature__title{
+        color: #243E62;
+        font-size: 16px;
+        max-width: calc(634px / 3);
+    }
+
+    .feature__para {
+        margin-top: 16px;
+        font-size: 16px;
+        max-width: calc(634px / 3);
+        color: rgb(124, 139, 161);
+    }
+
+    .feature__img {
+        max-width: calc(634px / 3);
+        display: flex;
+    }
+    
+    .feature__img--wrapper{
+        display: flex;
+        padding: 20px;
+        border: 1px solid #e5e7eb;
+        border-radius: 500px;
+    }
+  
+    
+    
+    /*
+    
+    
+    Quality Work
+    
+    
+    */
+
+    #quality .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    }
+
+    .section__tag {
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    }
+
+    .quality__description,
+    .quality__img--wrapper {
+        width: 50%;
+    }
+
+    .quality__img--wrapper {
+    border-radius: 4px;
+    border: 1px solid rgb(229, 231, 235);
+    position: relative;
+    margin: 0 56px;
+    z-index: 2;
+    display: flex;
+    }
+
+    .quality__img {
+        z-index: 1;
+        width: 50%;
+    }
+
+    .quality__grid {
+    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    fill: rgb(100, 21, 255);
+    --tw-text-opacity: 1;
+    color: rgba(100, 21, 255, var(--tw-text-opacity));
+    z-index: 0;
+    display: block;
+    }
+
+    #quality .btn {
+        margin: 32px;
+    }
+
+    .btn {
+    background-color: #6415ff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 500px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 300ms ease;
+    cursor: pointer;
+    }
+
