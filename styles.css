@@ -354,7 +354,8 @@
         display: flex;
         flex-wrap: wrap;
     }
-      
+
+        
     .container {
     padding: 96px 0;
     }
@@ -1165,6 +1166,11 @@ FOOTER
 
     .feature {
         width: calc(-50%);
+    }
+
+    .quality__description{
+        margin-right: 0px;
+        padding-right: 48px;
     }
 }
 
