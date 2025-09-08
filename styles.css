@@ -84,8 +84,10 @@
     }
 
     .nav__link:hover {
-        text-decoration: underline; 
-                
+        
+        text-decoration: underline;
+        text-decoration-color:#6415ff ;
+        font-size: bold;
     }
 
     .nav__link--primary {
@@ -116,8 +118,9 @@
     }
 
     .nav__link--primary:hover{
-        background-color: #6415ff;
+        background-color:rgba(80, 17, 204);
         color: white;
+        text-decoration: none;
     }
 
     .nav__link:after {
@@ -222,9 +225,7 @@
         border: none;
     }
     
-    .nav__link--primary:hover {
-        text-decoration: none;
-    }
+    
 
     #quality .section__title, 
     #values .section__title {
@@ -498,20 +499,6 @@
     .quality__img {
         z-index: 1;
         width: 50%;
-    }
-
-    .quality__grid {
-    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    fill: rgb(100, 21, 255);
-    --tw-text-opacity: 1;
-    color: rgba(100, 21, 255);
-    z-index: 0;
-    display: block;
     }
 
     #quality .btn {
